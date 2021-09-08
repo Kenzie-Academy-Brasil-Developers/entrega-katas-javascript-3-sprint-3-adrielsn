@@ -1,5 +1,17 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
+function showResult(chamaResultado) {
+    const resultados = document.getElementById("results")
+
+    const paragraph = document.createElement("p")
+
+    paragraph.innerText = chamaResultado
+
+    resultados.appendChild(paragraph)
+}
+
+
+
 function kata1() {
     // implemente o código do kata 1 aqui
     let resposta = []
@@ -11,7 +23,7 @@ function kata1() {
   
 }
 
-console.log(kata1())
+showResult(kata1())
 
 function kata2() {
     // implemente o código do kata 2 aqui
@@ -23,7 +35,7 @@ function kata2() {
     return resposta
   
 }
-console.log(kata2())
+showResult(kata2())
 
 function kata3() {
     // implemente o código do kata 3 aqui
@@ -35,7 +47,7 @@ function kata3() {
     return resposta
   
 }
-console.log(kata3())
+showResult(kata3())
 
 function kata4() {
     // implemente o código do kata 4 aqui
@@ -46,7 +58,7 @@ function kata4() {
     }
     return resposta
 }
-console.log(kata4())
+showResult(kata4())
 
 function kata5() {
     // implemente o código do kata 5 aqui
@@ -57,7 +69,7 @@ function kata5() {
     }
     return resposta
 }
-console.log(kata5())
+showResult(kata5())
 
 function kata6() {
     // implemente o código do kata 6 aqui
@@ -68,7 +80,7 @@ function kata6() {
     }
     return resposta
 }
-console.log(kata6())
+showResult(kata6())
 
 function kata7() {
     // implemente o código do kata 7 aqui
@@ -79,7 +91,7 @@ function kata7() {
     }
     return resposta
 }
-console.log(kata7())
+showResult(kata7())
 
 function kata8() {
     // implemente o código do kata 8 aqui
@@ -98,7 +110,7 @@ function kata8() {
     return resultado
    
 }
-console.log(kata8())
+showResult(kata8())
 
 function kata9() {
     // implemente o código do kata 9 aqui
@@ -109,14 +121,14 @@ function kata9() {
     }
     return resposta
 }
-console.log(kata9())
+showResult(kata9())
 
 function kata10() {
     // implemente o código do kata 10 aqui
     return sampleArray
     
 }
-console.log(kata10())
+showResult(kata10())
 
 function kata11() {
     // implemente o código do kata 11 aqui
@@ -130,7 +142,7 @@ function kata11() {
     }
     return pares
 }
-console.log(kata11())
+showResult(kata11())
 
 function kata12() {
     // implemente o código do kata 12 aqui
@@ -145,7 +157,7 @@ function kata12() {
     return impares
 
 }
-console.log(kata12())
+showResult(kata12())
 
 function kata13() {
     // implemente o código do kata 13 aqui
@@ -159,7 +171,7 @@ function kata13() {
     }
     return divPor8
 }
-console.log(kata13())
+showResult(kata13())
 
 function kata14() {
     // implemente o código do kata 14 aqui
@@ -171,7 +183,7 @@ function kata14() {
     }
     return quadrado
 }
-console.log(kata14())
+showResult(kata14())
 
 function kata15() {
     // implemente o código do kata 15 aqui
@@ -187,7 +199,7 @@ function kata15() {
     }
     return soma
 }
-console.log(kata15())
+showResult(kata15())
 
 function kata16() {
     // implemente o código do kata 16 aqui
@@ -199,19 +211,19 @@ function kata16() {
     }
     return soma
 }
-console.log(kata16())
+showResult(kata16())
 
 function kata17() {
     // implemente o código do kata 17 aqui
     return sampleArray[7]
 }
-console.log(kata17())
+showResult(kata17())
 
 function kata18() {
     // implemente o código do kata 18 aqui
     return sampleArray[18]
 }
-console.log(kata18())
+showResult(kata18())
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco

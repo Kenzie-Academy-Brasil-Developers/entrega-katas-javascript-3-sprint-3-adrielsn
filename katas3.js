@@ -73,14 +73,9 @@ function kata5() {
             if (array[n] % 2 !== 0) {
                 resultado.push(array[n])
             }           
-       }
+       
     return resultado
     
-    
-    for (let n=25;n>=-25;n-=1) {
-    resposta.push(n)
-    }
-    return resposta
 }
 showResult(kata5())
 

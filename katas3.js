@@ -62,8 +62,21 @@ showResult(kata4())
 
 function kata5() {
     // implemente o código do kata 5 aqui
+    let array = []
     let resposta = []
-      
+    
+    for (let n=25; n>=-25; n-=1) {
+        array.push(n)
+        }
+    
+    for (let n=0; n<array.length; n++) {
+            if (array[n] % 2 !== 0) {
+                resultado.push(array[n])
+            }           
+       }
+    return resultado
+    
+    
     for (let n=25;n>=-25;n-=1) {
     resposta.push(n)
     }
